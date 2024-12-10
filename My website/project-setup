@@ -1,0 +1,38 @@
+occur-ai/
+├── client/
+│   ├── public/
+│   │   ├── index.html
+│   │   ├── favicon.ico
+│   │   ├── manifest.json
+│   │   └── robots.txt
+│   ├── src/
+│   │   ├── components/
+│   │   │   ├── layout/
+│   │   │   │   ├── Sidebar.js
+│   │   │   │   └── TopNav.js
+│   │   │   └── workspace/
+│   │   │       ├── AgentContextMenu.js
+│   │   │       ├── FloatingActions.js
+│   │   │       ├── VMStatus.js
+│   │   │       └── Workspace.js
+│   │   ├── pages/
+│   │   │   ├── Home.js
+│   │   │   ├── Agents.js
+│   │   │   ├── Analytics.js
+│   │   │   ├── Integrations.js
+│   │   │   └── Settings.js
+│   │   ├── styles/
+│   │   │   ├── App.css
+│   │   │   ├── Sidebar.css
+│   │   │   ├── TopNav.css
+│   │   │   ├── Workspace.css
+│   │   │   └── components/
+│   │   │       └── AgentContextMenu.css
+│   │   ├── utils/
+│   │   │   └── constants.js
+│   │   └── App.js
+│   ├── package.json
+│   └── README.md
+└── server/
+    └── src/
+        └── server.js 
